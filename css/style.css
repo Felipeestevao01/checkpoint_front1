@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gentium+Plus:ital,wght@0,700;1,400&family=Pacifico&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Gentium+Plus:ital,wght@0,700;1,400&family=Pacifico&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(134, 134, 134, 0.377);
+}
+
+/*Incio Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/img/header.gif");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.281);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho__nav {
+    display: flex;
+    margin-right: 50px;
+    gap: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cabecalho__title {
+    font-family: 'Dancing Script', cursive;font-family: 'Pacifico', cursive;font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+
+.cabecalho__title1 {
+    color: rgba(0, 128, 0, 0.973);
+}
+
+.cabecalho__title2 {
+    color: rgba(255, 0, 0, 0.911);
+}
+
+.cabecalho__nav__item {
+    background: #3c7e83af;
+    border: 2px solid #0000005b;
+    border-radius: 50px;
+    padding: 15px;
+    list-style-type: none; 
+}
+
+.cabecalho__nav__item a {
+    text-decoration: none;
+}
+
+.cabecalho__nav__item:hover {
+    background-color: rgba(87, 141, 137, 0.637);
+}
+/*Fim header*/
+
+/*Inicio Banner*/
+.container__banner {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url("/img/banner.jpg");
+    height: 350px;
+    width: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 10px 10px 2em rgb(26, 25, 25);
+}
+
+.container__banner p {
+    display: block;
+    text-align: center;
+    padding: 125px 0 0 0;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(101, 102, 102);
+    background-image: url(/img/siri.gif);
+    background-repeat: no-repeat;
+    background-position: 80%
+}
+/*Fim Banner*/
+
+/*Inicio Cards*/
+.container__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0 0 0;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+
+.titulo__cards {
+    position: absolute;
+    margin-right: 50%;
+    font-family: 'Dancing Script', cursive; font-family: 'Gentium Plus', serif; font-family: 'Pacifico', cursive; font-family: 'Teko', sans-serif; font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 45px;
+}
+
+.cards {
+    width: 300px;
+    height:580px;
+    margin-top: 75px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: linear-gradient(78.15deg, #9c9a9aad 36.62%, #b1afaf 45.61%);
+    box-shadow: 10px 10px 2em rgb(26, 25, 25);
+}
+
+.cards__img {
+    width: 300px;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card__titulo {
+    justify-items: justify;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cards__conteudo {
+    padding: 20px 30px;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive; font-family: 'Gentium Plus', serif; font-family: 'Pacifico', cursive; font-family: 'Teko', sans-serif; font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.card__button{
+    display: flex;
+    padding: 5px;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+/*Fim Cards*/
+
+/*Incio Video*/
+.container__video {
+    margin-top: 65px;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.container__video h2 {
+    display: flex;
+    margin-left: 35.2%;
+    color: rgb(77, 77, 77);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+
+.video {
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 2em rgb(26, 25, 25);
+}
+/*Fim Video*/
+
+/*Inicio Footer*/
+
+footer{
+    display: flex;
+    height: 250px;
+    margin: 10px 0 0 0;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    border-top: 1px solid rgba(80, 79, 79, 0.322);
+    
+}
+/*Fim Footer*/
+
+/*Inicio Responsividade*/
+
+@media (max-width: 425px) {
+
+    header {
+        width: 35rem;
+        height: 17rem;
+    }
+
+    .cabecalho__nav{
+        flex-direction: column;
+    }
+
+    .cabecalho__title{
+        width: 20rem;
+    }
+    
+    .container__banner{
+        width: 35rem;
+        height: 15rem;
+    }
+
+    .container__banner p{
+        padding: 3rem;
+        background-position: 0.5rem;
+    }
+
+    .titulo__cards{
+        font-size: 3rem;
+        margin-left: 13rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    .container__cards{
+        margin-top: 8rem;
+        margin-left: 2rem;
+        width: 500px;
+    }
+
+    .cards{
+        margin-top: 8rem;
+        width: 450px;
+        height: 800px;
+    }
+
+    .cards__img{
+        width: 450px;
+        height: 400px;
+    }
+
+    .card__titulo{
+        font-size: 2.3rem;
+    }
+
+    .cards__conteudo {
+        font-size: 2.1rem;
+        font-family: 'Dancing Script', cursive; font-family: 'Gentium Plus', serif; font-family: 'Pacifico', cursive; font-family: 'Teko', sans-serif; font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+    .container__video h2{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    footer{
+        display: flex;
+        width: 35rem;
+    }
+
+
+}
